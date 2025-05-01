@@ -12,6 +12,14 @@ with col2:
     st.image("mm.png", width=150)
     st.markdown("## 🛍️ MiniMart")
     st.markdown("### 🍏 Fresh & Fast")
+
+# st.markdown("""
+#     <div style='text-align: center;'>
+#         <h1 style='color: green;'> MiniMart</h1>
+#         <h3 style='color: gray;'>Fresh & Fast</h3>
+#     </div>
+# """, unsafe_allow_html=True)
+
 # --- Prices ---
 PRICES = {
     "Pizza": 350, "Burger": 120, "Cold Drink": 150,
@@ -172,4 +180,3 @@ st.markdown("💬 WhatsApp: +92-342-3471098")
 st.markdown("➤ Follow us on 📸 [Instagram](https://www.instagram.com/minimart) | ⓕ [Facebook](https://www.facebook.com/minimart)")
 st.markdown("🌐 Visit our website: [www.minimart.com](https://www.minimart.com)")
 st.write("✓ since \u00a9 2025 My Portfolio. All rights reserved.")
-# # --- Streamlit App ---
