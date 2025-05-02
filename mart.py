@@ -62,7 +62,7 @@ order_time = datetime.now().strftime("%d-%m-%Y %I:%M %p")
 # --- Item Selection ---
 st.markdown("""
     <div style='text-align: center;'>
-        <h1 style='color: white;'>Select Your Items📜</h1>
+        <h1 style='color: gray;'>Select Your Items📜</h1>
     </div>
 """, unsafe_allow_html=True)
 # st.header("📜 Select Your Items")
@@ -180,3 +180,4 @@ st.markdown("💬 WhatsApp: +92-342-3471098")
 st.markdown("➤ Follow us on 📸 [Instagram](https://www.instagram.com/minimart) | ⓕ [Facebook](https://www.facebook.com/minimart)")
 st.markdown("🌐 Visit our website: [www.minimart.com](https://www.minimart.com)")
 st.write("✓ since \u00a9 2025 My Portfolio. All rights reserved.")
+# # --- Streamlit App ---
